@@ -46,7 +46,7 @@ egret_h5.startGame = function () {
     if(egret.MainContext.deviceType == egret.MainContext.DEVICE_MOBILE)
     {
         isMobile = true;
-        scaleMode = egret.StageScaleMode.NO_BORDER;
+        scaleMode = egret.StageScaleMode.EXACT_FIT;
         egret.StageDelegate.getInstance().setDesignSize(480, 800);
     }else
     {
