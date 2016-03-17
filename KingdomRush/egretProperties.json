@@ -12,7 +12,7 @@
 		},
 		{
 			"name": "greensock",
-			"path": "../libsrc/greensock"
+			"path": "libs/greensock"
 		}
 	],
 	"native": {
